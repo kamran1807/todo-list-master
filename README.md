@@ -1,3 +1,41 @@
+# project name
+
+	- todo-list-master
+
+# purpose 
+
+	- create and display tasks in a list (with delete and edit options) using API calls 
+	
+# frontend 
+
+  - React.js
+  - Redux 
+  - Chakra UI
+
+# backend
+
+  - Axios 
+  - JSON Server (run on port 8000)
+
+# database
+
+  - N/A
+
+# packages
+
+  - Chakra UI
+	- Redux
+	- Axios
+	- JSON Server
+
+# components 
+
+	- EditTaskForm
+  - Task
+  - TaskForm
+  - TaskList
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
