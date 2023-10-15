@@ -31,7 +31,7 @@ export const deleteTask = (taskId) => {
   return async (dispatch) => {
     try {
       // make a DELETE request to API in order to delete the task by taskId
-      await axios.delete(`http://localhost:3001/tasks/${taskId}`);
+      await axios.delete(`http://localhost:8000/tasks/${taskId}`);
       dispatch({ type: 'DELETE_TASK', payload: taskId });
     } 
     catch (error) {

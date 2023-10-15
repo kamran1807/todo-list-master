@@ -5,7 +5,6 @@ import store from './store/store'; // Redux store
 import TaskList from './components/TaskList'; 
 import TaskForm from './components/TaskForm';
 import theme from './theme';
-import { useSelector, useDispatch } from 'react-redux';
 
 function App() {
   return (
@@ -22,7 +21,7 @@ function App() {
             justifyContent="center"
             p={4}
           >
-            <Text fontSize="2xl" color="primary.500">Todo List App</Text>
+            <Text fontSize="2xl" color="primary.500" margin={50}>Todo List App</Text>
             <TaskList />
             <TaskForm />
           </Box>
